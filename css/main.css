@@ -1,0 +1,47 @@
+
+.hdr {
+	text-align: center;
+    color: black;
+    font-weight: bold;
+    background: lightblue; /* yellow */
+    border: 2px solid black;
+    padding: 1em;
+}
+#main{
+	text-align: center;
+
+}
+#tbdlist {
+		text-align: center;
+		/*font-weight: bold;*/
+		border: 1px solid black;
+		list-style-type: none;
+
+}
+
+#donelist {
+		text-align: center;
+		/*font-weight: bold;*/
+		border: 1px solid black;
+		list-style-type: none;
+}
+
+#tbdlist li, #donelist li    { 
+	width:33.3%; 
+} <span class="code-comment">/* 4 col */</span>
+
+#tbdlist ul, #donelist, ul{
+  width:760px;
+  margin-bottom:20px;
+  overflow:hidden;
+  border-top:1px solid #ccc;
+}
+#tbdlist li, #donelist li{
+  line-height:1.5em;
+  border-bottom:1px solid #ccc;
+  float:left;
+  display:inline;
+}
+/* {
+	border-color: red;
+}
