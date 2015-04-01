@@ -12,34 +12,38 @@
 			<li>Item</li>
 			<li>Addedby</li>
 			<li>Date</li>
+			<li>Undo</li>
+<!--
 			<li>Bread</li>
 			<li>Bob</li>
 			<li>3/4/14</li>
 			<li>Sunil</li>
 			<li>Coffee</li>
 			<li>3/12/15</li>	
+-->
 		</ul>
+		<br>
 		<div class="adder">
 			<form>
-			Add Item:<br>
-			<input type="text" name="Item" />
+			<input type="text" id="itemname" name="Item" Placeholder = "An Item"/>
+			<!--
 			<br>Cost:<br>
-			<input type="text" name="Item" />
-			</form>
-			by: username <br>
-			on: today's date
+			<input type="text" name="Cost" Placeholder="Optional Cost" />
+			-->
+			<br>by: username <br>
+			on: today's date <br>
+		</form>
 		</div>
+		<button onclick="archive()">Archive</button>
 		<ul id="donelist">
 			<li>Item</li>
 			<li>Doneby</li>
 			<li>Date</li>
-			<li>Eggs</li>
-			<li>Chiang</li>
-			<li>3/4/14</li>
-			<li>Milk</li>
-			<li>Chiang</li>
-			<li>3/12/15</li>
+			<li>Reget</li>		
+
 		</ul>
 	</div>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
